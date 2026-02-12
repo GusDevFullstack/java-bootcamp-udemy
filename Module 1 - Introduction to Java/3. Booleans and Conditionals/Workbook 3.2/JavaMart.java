@@ -1,10 +1,10 @@
 public class JavaMart {
     public static void main(String[] args) {
-        double wallet = 50;
+        double wallet = 100;
 
         double toyCar = 5.99;
         System.out.println("Can I get this car?");
-       
+
         if (wallet >= toyCar) {
             System.out.println("Sure");
             wallet -= toyCar;
@@ -14,8 +14,6 @@ public class JavaMart {
 
         double nike = 95.99;
         System.out.println("Can I get these nike shoes?");
-  
-        //else: Sorry, I only have <wallet> left.
 
         if (wallet >= nike) {
             System.out.println("Sure");

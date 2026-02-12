@@ -1,6 +1,6 @@
 public class JavaMart {
     public static void main(String[] args) {
-        double wallet = 1000;
+        double wallet = 50;
 
         double toyCar = 5.99;
         System.out.println("Can I get this car?");
